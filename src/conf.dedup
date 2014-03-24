@@ -1,0 +1,10 @@
+[global]
+prefix=/home/yfjiang/data_index/data_dedup
+[dedup]
+title=$(prefix)/index/titleIndex
+content=$(prefix)/index/contentIndex
+[cake_agent]
+ip=10.2.8.223
+port=9000
+protocol=tbinary
+transport=buffer
